@@ -4,9 +4,11 @@ channels:
   - defaults
   - pyg
   - conda-forge
+  - nvidia
 dependencies:
   - python=3.9
-  - cudatoolkit=11.3
+  - cudatoolkit=11.7
+  - pytorch-cuda=11.7
   - pytorch-scatter
   - pip
   - notebook
